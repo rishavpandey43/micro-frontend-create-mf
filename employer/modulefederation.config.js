@@ -3,7 +3,7 @@ const { dependencies } = require("./package.json");
 module.exports = {
   name: "employer",
   remotes: {
-    employee: "employee@http://localhost:3000/remoteEntry.js",
+    employee: "employee@http://localhost:8081/remoteEntry.js",
   },
   shared: {
     ...dependencies,

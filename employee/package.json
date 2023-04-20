@@ -18,7 +18,7 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "PORT=8081 craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
